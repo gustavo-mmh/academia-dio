@@ -26,7 +26,7 @@ Projeto desenvolvido para o Botcamp Carrefour Web Developer com o intuito de con
     - Postman
 
 
-<h2><a href="https://strn.com.br/artigos/2018/12/11/todas-as-anota%C3%A7%C3%B5es-do-jpa-anota%C3%A7%C3%B5es-de-mapeamento/"> Anotações de Mapeamento </a></h2>
+## <a href="https://strn.com.br/artigos/2018/12/11/todas-as-anota%C3%A7%C3%B5es-do-jpa-anota%C3%A7%C3%B5es-de-mapeamento/"> Anotações de Mapeamento </a>
 
 <strong>@Entity</strong>
 Usada para especificar que a classe anotada atualmente representa um tipo de entidade.
