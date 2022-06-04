@@ -1,41 +1,29 @@
-<h1>Conhecendo o Projeto Spring Data JPA na Prática </h1>
+<h1> Projeto Spring Data JPA na Prática </h1>
 <p> Sejam bem-vindos ao projeto de LAB <strong>Conhecendo o Projeto Spring Data JPA na Prática</strong> oferecido gratuitamente pela plataforma de cursos online <a href="https://dio.me/"><strong> Digital Innovation One</strong></a>.<br>
 
-<h2>🎯 Objetivo do Projeto</h2>
-<p>Ao final deste projeto, o Dev irá conhecer os principais conceitos de mapeamento objeto relacional (ORM) usando o <strong>Spring Data JPA</strong>. Para isso, uma <strong>API RESTful</strong> será desenvolvida com ênfase na modelagem de suas entidades, no domínio de uma academia de ginástica.</p>
+## 📌 Sobre o Projeto
+Projeto desenvolvido para o Botcamp Carrefour Web Developer com o intuito de conhecer os principais conceitos de mapeamento objeto relacional (ORM) usando o Spring Data JPA. Foi desenvolvido uma <strong>API RESTful</strong> com ênfase na modelagem de suas entidades, no domínio de uma academia de ginástica.
 
-<h2>
-🛑 Pré-requistos
-</h2>
 
-- [x] Fundamentos do Spring Boot
+## 🚦 Guia do que foi feito
+    
+    - Configuração do banco de dados (SGBD ostgreSQL)
+    - Aplicação das annotations
+    - Execução do fluxo back-end: Controller - Service - Repository
+    - Validação - Hibernate Validator
+    - Consultas Avançadas - Derived Query - Native Query
 
-- [x] Noções de SQL
+## 🖥️ Tecnologias Utilizadas
 
-<h2> 🚦 Guia </h2>
-
-<ol>
-    <li> Apresentação do Projeto Base </li>
-    <li> Configuração do banco de dados (SGBD <em>PostgreSQL</em>)</li>
-    <li> Aplicando as <em>annotations</em></li>
-    <li>Execução do fluxo back-end: <em>Controller - Service - Repository</em></li>
-    <li>Validação - <em>Hibernate Validator</em> </li>
-    <li>Consultas Avançadas - <em>Derived Query - Native Query</em></li>
-</ol>
-
-<h2>🛠 Tecnologias Utilizadas</h2>
-
-<ul>
-    <li>IDE IntelliJ</li>
-    <li>Java 11</li>
-    <li>Maven</li>
-    <li><strong>Spring Web</strong></li>
-    <li><strong>Spring Data JPA</strong></li>
-    <li><strong>PostgreSQL Driver</strong></li>
-    <li><strong>Hibernate Validator</strong></li>
-    <li>Lombok</li>
-    <li>Postman</li>
-</ul>
+    - IDE Sprig Tool Suite
+    - Java 11
+    - Maven
+    - Spring Web
+    - Spring Data JPA
+    - PostgreSQL Driver
+    - Hibernate Validator
+    - Lombok
+    - Postman
 
 
 <h2><a href="https://strn.com.br/artigos/2018/12/11/todas-as-anota%C3%A7%C3%B5es-do-jpa-anota%C3%A7%C3%B5es-de-mapeamento/"> Anotações de Mapeamento </a></h2>
@@ -73,7 +61,7 @@ Realizar operações em cascata só faz sentido em relacionamentos Pai - Filho.
 <strong>mappedBy</strong>
 Indica qual é o lado inverso ou não dominante da relação.
 
-<h2>🔗 Links Úteis</h2>
+## 🔗 Links Úteis
 <ul>
     <li><a href="https://start.spring.io/#!type=maven-project&language=java&platformVersion=2.6.1&packaging=jar&jvmVersion=11&groupId=me.dio.academia&artifactId=academia-digital&name=academia-digital&description=Tutorial%20API%20RESTful%20modelando%20sistema%20de%20academia%20de%20gin%C3%A1stica&packageName=me.dio.academia.digital&dependencies=web,data-jpa,postgresql,validation,lombok">Spring Initializr</a></li>
     <li><a href="https://docs.spring.io/spring-boot/docs/2.0.x/reference/html/common-application-properties.html">Common application properties</a></li>
@@ -81,21 +69,10 @@ Indica qual é o lado inverso ou não dominante da relação.
 </ul>
 
 
-<h2> 🤝 Contribuindo </h2>
+## 🤝 Contribuindo
 
 Este repositório foi criado para fins de estudo, então contribua com ele.
 Se te ajudei de alguma forma, ficarei feliz em saber. E caso você conheça alguém que se identidique com o conteúdo, não deixe de compatilhar.
-
-Se possível:
-
-⭐️  Star o projeto
-
-🐛 Encontrar e relatar issues
-
-------------
-
-Disponibilizado com ♥ por [cami-la](https://www.linkedin.com/in/cami-la/ "cami-la").
-
 
 
 
